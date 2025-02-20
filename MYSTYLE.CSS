@@ -1,4 +1,4 @@
-html {background-color:beige;}
+html {background-color: beige;}
 
 .theproblem {position: reletive;}
 
@@ -21,18 +21,33 @@ position: relative;}
 .fillgap {top: 0px;
    left: 0px;
    padding-left: 100%;
-   padding-top: 140px;
+   padding-top: 125px;
       position: absolute;
       background-color: rgb(52, 95, 28);
    z-index: -1;}
 
-    a:any-link{color:black;
-        text-decoration: none;}
 
+h1 {padding: 25px;
+    text-align: center;
+    background-color: rgb(117, 187, 117);
+   width: calc(width-device);}
 
-    a{font-size: 16px;}
-    a.po {margin-left: 30px;}
-    .re{position: fixed;
-    right: 0px;
-    top:0px}
-  
+h2 {font-size: 32px;}
+
+.a {margin: auto;
+   color: rgb(52, 100, 52);
+   width : "width-device"; 
+   font-size: 24px;}
+/*this is instead of p*/
+
+.pp {float: right;
+   padding: 20px;
+   padding: beige;}
+.p {float: right;
+   padding: 20px;
+   padding: beige;}
+a:any-link{color:black;
+   text-decoration: none;}
+
+.p-2 h3{width: 400px;}
+
